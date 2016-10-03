@@ -4,6 +4,7 @@ MAINTAINER aptalca
 # install packages
 RUN \
  apk add --no-cache \
+	curl \
 	openjdk8-jre \
 	openssl
 
